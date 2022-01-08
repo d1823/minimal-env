@@ -6,8 +6,6 @@ Add `ctrl:nocaps` to the `XKBOPTIONS` in `/etc/default/keyboard` to remap CapsLo
 
 # Bash
 
-Open both `/etc/skel/.bashrc` and `~/.bashrc` and remove any configuration affecting `PS1` variable, since further down it's being set to a proper value.
-
 Create a directory at `/etc/bash.d` and add the following to the `/etc/bash.bashrc` file.
 
 ```sh
